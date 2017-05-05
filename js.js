@@ -18,5 +18,8 @@ function tabClose() {
       tabUp[i].style.border = "";
     }
   }
+
   this.style.border = "2px solid red";
+
 }
+tabUp[0].click();
